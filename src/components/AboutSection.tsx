@@ -227,11 +227,11 @@ const AboutSection = () => {
           <MissionVisionValues />
 
           {/* Company Overview */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center m-12">
+          <div className="grid lg:grid-cols-2 gap-12 items-center mt-10">
             <div className="relative mx-auto">
               <img
                 alt="Jayco Electricals Manufacturing Facility"
-                className="rounded-xl h-96 object-cover"
+                className="rounded-2xl max-h-[600px] sm:h-96 sm:mt-10 w-full object-contain"
                 src="/lovable-uploads/about/insfra.png"
               />
             </div>
