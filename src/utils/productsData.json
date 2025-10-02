@@ -1,0 +1,389 @@
+[
+  {
+    "image": "/lovable-uploads/service/technicalsupport.png",
+    "product_name": "Power Transformers",
+    "description": "Jayco Electricals offers high-performance Power Transformers designed for reliable and efficient voltage transformation in high-voltage transmission systems. Built with precision using CRGO cores, high-conductivity windings, and advanced insulation systems, our transformers are engineered for durability, energy efficiency, and long operational life.\n\nThese are ideal for step-up and step-down voltage applications across power grids, substations, and large industrial operations.\n\nEvery unit is manufactured in strict compliance with IS 2026, IEC 60076, and ANSI standards, with configurations tailored to meet the exact voltage, capacity, and site requirements of clients, including government electricity boards, DISCOMs, infrastructure projects, and heavy industry plants.",
+    "key_features": [
+      "Voltage Rating: Up to 220 kV and 100 MVA",
+      "Winding Material: High-conductivity copper or aluminum",
+      "Cooling Types: ONAN, ONAF, OFAF, ODAF",
+      "Tap Changer: Off-load or On-load (OLTC) options",
+      "Core: CRGO steel for reduced core losses",
+      "Insulation Class: A / B / F / H",
+      "Design Standards: IS 2026 / IEC 60076 / ANSI / IEEE",
+      "Vector Group: Dyn11, YNd1, YNyn0, etc.",
+      "Mounting: Skid or wheel-mounted, customizable layout",
+      "Smart Options: IoT-based monitoring, temperature indicators, PRD, Buchholz relay"
+    ],
+    "technical_specifications": {
+      "Rated Capacity": "100 kVA to 100 MVA",
+      "Voltage Class": "Up to 220 kV",
+      "Frequency": "50 Hz / 60 Hz",
+      "Winding Material": "Copper / Aluminum",
+      "Cooling Method": "ONAN / ONAF / OFAF / ODAF",
+      "Tap Changer": "Off-load / On-load (OLTC)",
+      "Temperature Rise": "50°C / 55°C / 65°C",
+      "Ambient Temp. Range": "-5°C to +50°C",
+      "Insulation Level Class": "A / B / F / H",
+      "Standards": "IS 2026, IEC 60076, ANSI / IEEE"
+    },
+    "advantages": [
+      "Energy Efficient: Minimizes power loss, reduces electricity bills",
+      "Custom-Built: Tailored to site and load requirements",
+      "Heavy-Duty: Performs well under tough conditions",
+      "Compact & Durable: Built to last in real-world usage",
+      "Low Maintenance: Needs minimal servicing",
+      "Smart-Ready: Compatible with IoT & SCADA systems"
+    ],
+    "technical_use_cases": [
+      "Voltage transformation in substations and grids",
+      "Power supply for public utilities and industries",
+      "Backup support for plants like steel and cement",
+      "Stable power in areas with fluctuating voltage"
+    ],
+    "applications": [
+      "Government DISCOMs & electricity boards",
+      "Industrial and manufacturing zones",
+      "Infrastructure projects (metro, airports, SEZs)",
+      "Renewable energy and power plants",
+      "Railway electrification systems"
+    ]
+  },
+  {
+    "image": "/lovable-uploads/product/product.img",
+    "product_name": "Distribution Transformers",
+    "description": "Jayco Electricals manufactures high-performance Distribution Transformers designed to efficiently deliver electrical power from transmission lines to residential, commercial, and small industrial users. Engineered for long life, high efficiency, and low maintenance, our transformers are compact in size and robust in construction — making them ideal for both rural and urban grid environments.\n\nBuilt with top-grade CRGO cores and copper/aluminum windings, these transformers ensure minimal no-load and load losses. They are capable of withstanding fluctuating loads and harsh weather conditions and are available in pole-mounted or pad-mounted configurations as per site needs. Every unit adheres to IS 1180 (Part 1) and IEC 60076 standards and is approved by DISCOMs and electricity boards across India.",
+    "key_features": [
+      "Voltage Rating: Up to 33 kV",
+      "Capacity Range: 10 kVA to 2.5 MVA",
+      "Winding Material: Copper or Aluminum",
+      "Cooling Types: ONAN (Oil Natural Air Natural)",
+      "Tap Changer: Off-load or On-load (OLTC)",
+      "Design Standards: IS 1180 (Part 1), IEC 60076",
+      "Mounting: Pole-mounted / Pad-mounted",
+      "Insulation Class: A / B / F",
+      "Loss Levels: As per Star Ratings / BEE norms",
+      "Protection: HT/LT bushing protection, pressure relief device, conservator tank"
+    ],
+    "technical_specifications": {
+      "Rated Capacity": "10 kVA to 2.5 MVA",
+      "Voltage Class": "Up to 33 kV",
+      "Frequency": "50 Hz",
+      "Winding Material": "Copper / Aluminum",
+      "Cooling Method": "ONAN",
+      "Tap Changer": "Off-load / On-load (OLTC)",
+      "Temperature Rise": "40°C / 50°C / 55°C",
+      "Ambient Temp. Range": "-5°C to +50°C",
+      "Insulation Level": "Class A / B / F",
+      "Standards": "IS 1180 (Part 1), IEC 60076"
+    },
+    "advantages": [
+      "Energy Efficient: Minimizes power loss, reduces electricity bills",
+      "Custom-Built: Tailored to site and load requirements",
+      "Heavy-Duty: Performs well under tough conditions",
+      "Compact & Durable: Built to last in real-world usage",
+      "Low Maintenance: Needs minimal servicing",
+      "Smart-Ready: Compatible with IoT & SCADA systems"
+    ],
+    "technical_use_cases": [
+      "Voltage transformation in substations and grids",
+      "Power supply for public utilities and industries",
+      "Backup support for plants like steel and cement",
+      "Stable power in areas with fluctuating voltage"
+    ],
+    "applications": [
+      "Government DISCOMs & electricity boards",
+      "Industrial and manufacturing zones",
+      "Infrastructure projects (metro, airports, SEZs)",
+      "Renewable energy and power plants",
+      "Railway electrification systems"
+    ]
+  },
+  {
+    "image": "/lovable-uploads/product/product.img",
+    "product_name": "Dry-Type Transformers",
+    "description": "Jayco Electricals offers Dry Type Transformers that provide a safe, flame-resistant, and eco-friendly alternative to traditional oil-filled transformers.\n\nDesigned in compliance with IEC 726 / IEC 60076-11 standards, these transformers are ideally suited for indoor installations and sensitive environments where fire safety and minimal environmental impact are critical.\n\nManufactured using high-grade insulation materials such as vacuum pressure impregnated (VPI) windings or cast resin technology, our dry type units deliver reliable performance, low partial discharge, and high thermal endurance. With zero risk of oil leakage or fire hazards, these transformers are perfect for commercial buildings, data centers, metros, and hospitals.",
+    "key_features": [
+      "Voltage Rating: Up to 33 kV",
+      "Capacity Range: 100 kVA to 5 MVA",
+      "Winding Technology: VPI or Cast Resin",
+      "Cooling Method: AN / AF (Air Natural / Air Forced)",
+      "Insulation Class: F or H Class insulation",
+      "Design Standards: IEC 726, IEC 60076-11",
+      "Safety: Self-extinguishing, fire-retardant materials",
+      "Environment-Friendly: No oil, no risk of spills or contamination",
+      "Mounting: Indoor floor-mounted or customized setups",
+      "Protection: Temperature sensors, enclosure options (IP23, IP44)"
+    ],
+    "technical_specifications": {
+      "Rated Capacity": "100 kVA to 5 MVA",
+      "Voltage Class": "Up to 33 kV",
+      "Frequency": "50 Hz / 60 Hz",
+      "Winding Type": "Copper (VPI / Cast Resin)",
+      "Cooling Method": "AN / AF",
+      "Temperature Rise": "100°C / 120°C",
+      "Insulation Class": "F / H",
+      "Enclosure Protection": "IP23 / IP44 / Custom",
+      "Standards": "IEC 726, IEC 60076-11"
+    },
+    "advantages": [
+      "Safe & Fire-Resistant: Ideal for indoor and sensitive zones",
+      "No Oil Used: No leakage, no pollution, eco-safe",
+      "Low Maintenance: No oil filtration or replacement needed",
+      "Quiet Operation: Minimal vibration and noise",
+      "Customizable Design: Compact and enclosure-ready",
+      "Compliant: Meets IEC 726 & international fire-safety norms"
+    ],
+    "technical_use_cases": [
+      "Indoor power distribution in high-rise and commercial spaces",
+      "Electrification for oil-free and fire-safe environments",
+      "Renewable power systems requiring low-maintenance equipment",
+      "Enclosed locations with restricted ventilation"
+    ],
+    "applications": [
+      "Hospitals, schools, and shopping malls",
+      "Airports, metros, and underground stations",
+      "IT parks, data centers, and control rooms",
+      "Industrial zones with strict fire-safety regulations",
+      "Marine and offshore installations"
+    ]
+  },
+  {
+    "image": "/lovable-uploads/product/product.img",
+    "product_name": "Furnace Transformers",
+    "description": "Jayco Electricals manufactures high-performance Furnace Transformers designed specifically to supply power to electric arc furnaces (EAFs), ladle furnaces, and induction heating systems. These transformers are built to withstand high current levels, frequent short-circuits, and extreme thermal and mechanical stresses typically seen during intense furnace operations.\n\nConstructed with robust insulation systems, heavy-duty windings, and reinforced mechanical structures, these units are engineered for reliability and efficiency in demanding steel, metal, and alloy melting applications. Configurations can be customized based on furnace type, duty cycle, power factor requirements, and control systems.",
+    "key_features": [
+      "Voltage Rating: Up to 66 kV",
+      "Capacity Range: 1 MVA to 50 MVA",
+      "High Current Design: Supports very low secondary voltages with high output current",
+      "Duty Cycle: Designed for intermittent and heavy cyclic loading",
+      "Cooling Method: ONAN / ONAF / OFWF / OFAF",
+      "Tap Changer: On-load (OLTC) for voltage control under load",
+      "Design Standards: IS 2026 / IEC 60076 / IEEE",
+      "Winding Material: Copper (optional Aluminum based on application)",
+      "Protection: Oil temperature indicators, pressure relief device, Buchholz relay"
+    ],
+    "technical_specifications": {
+      "Rated Capacity": "1 MVA to 50 MVA",
+      "Voltage Class": "Up to 66 kV",
+      "Frequency": "50 Hz / 60 Hz",
+      "Secondary Voltage": "As low as 80 V to 500 V",
+      "Cooling Method": "ONAN / ONAF / OFWF / OFAF",
+      "Tap Changer": "On-load (OLTC)",
+      "Temperature Rise": "55°C / 65°C",
+      "Winding Material": "Copper / Aluminum",
+      "Standards": "IS 2026, IEC 60076, IEEE"
+    },
+    "advantages": [
+      "Handles Extreme Loads: Built for high current and frequent short circuits",
+      "Robust Design: Withstands thermal and mechanical stress",
+      "Precise Control: OLTC enables fine voltage regulation",
+      "Heavy Duty Cooling: Enhanced systems for continuous and cyclic operations",
+      "Custom-Engineered: Optimized for furnace type and operational duty"
+    ],
+    "technical_use_cases": [
+      "Power supply for arc and induction furnaces",
+      "High-current applications in melting and refining processes",
+      "Voltage control in metal production environments",
+      "Support for continuous and batch furnace operations"
+    ],
+    "applications": [
+      "Steel and ferroalloy manufacturing units",
+      "Foundries and metal melting facilities",
+      "Induction heating and hardening plants",
+      "Smelting and refining operations in non-ferrous industries",
+      "Aluminum and copper recycling plants"
+    ]
+  },
+  {
+    "image": "/lovable-uploads/product/product.img",
+    "product_name": "Solar Inverter Duty Transformers",
+    "description": "Jayco Electricals offers Solar Inverter Duty Transformers specifically engineered for solar photovoltaic (PV) power plants. These transformers are designed to interface between solar inverters and the utility grid, ensuring efficient voltage transformation and galvanic isolation for grid synchronization.\n\nBuilt to handle non-linear inverter outputs, these transformers are optimized for high efficiency, low harmonic distortion, and reliable operation under fluctuating solar generation. Each unit complies with IS 2026 / IEC 60076 / IEEE standards and can be customized for central, string, or hybrid inverter configurations.",
+    "key_features": [
+      "Voltage Rating: Up to 33 kV",
+      "Capacity Range: 100 kVA to 5 MVA",
+      "Phase: Three-phase",
+      "Winding Material: Copper or Aluminum",
+      "Cooling Type: ONAN / AN / AF",
+      "Inverter Compatibility: Suitable for string and central inverters",
+      "Harmonic Handling: Designed for non-linear loads",
+      "Insulation Class: Class F / H",
+      "Design Standards: IS 2026 / IEC 60076 / IEEE",
+      "Mounting: Skid or pad-mounted, indoor/outdoor"
+    ],
+    "technical_specifications": {
+      "Rated Capacity": "100 kVA to 5 MVA",
+      "Voltage Class": "Up to 33 kV",
+      "Frequency": "50 Hz / 60 Hz",
+      "Phase": "Three-phase",
+      "Cooling Method": "ONAN / AN / AF",
+      "Winding Material": "Copper / Aluminum",
+      "Harmonic Capability": "Designed for THD from inverters",
+      "Insulation Class": "Class F / H",
+      "Standards": "IS 2026, IEC 60076, IEEE"
+    },
+    "advantages": [
+      "Solar-Optimized: Built for inverter-based power flow",
+      "Grid-Compliant: Ensures stable synchronization",
+      "Handles Harmonics: Designed for solar-generated waveforms",
+      "High Efficiency: Minimizes energy losses",
+      "Durable: Weather-proof for outdoor solar installations"
+    ],
+    "technical_use_cases": [
+      "Voltage step-up from inverter to utility grid level",
+      "Isolation between solar PV system and the grid",
+      "Power conditioning in solar farms",
+      "Integration with battery energy storage systems (BESS)"
+    ],
+    "applications": [
+      "Utility-scale solar power plants",
+      "Rooftop and ground-mounted solar installations",
+      "Hybrid solar systems with energy storage",
+      "Solar farms under government tenders (SECI, NTPC, state nodal agencies)",
+      "Industrial and commercial solar PV systems"
+    ]
+  },
+  {
+    "image": "/lovable-uploads/product/product.img",
+    "product_name": "Auto Transformers",
+    "description": "Jayco Electricals offers Auto Transformers designed for efficient and economical voltage regulation in both step-up and step-down applications. Unlike conventional two-winding transformers, auto transformers use a single winding structure, which reduces material usage, size, and losses — making them ideal for space-constrained environments and cost-sensitive projects.\n\nAvailable in oil-cooled and air-cooled configurations, these transformers are widely used in industrial installations, power plants, and transmission systems where compactness, reliability, and energy efficiency are essential. All units are manufactured in line with IS 2026 / IEC 60076 standards.",
+    "key_features": [
+      "Voltage Rating: Up to 220 kV",
+      "Capacity Range: 100 kVA to 100 MVA",
+      "Design Type: Single winding (auto) configuration",
+      "Cooling Types: Oil-cooled (ONAN / ONAF) & Air-cooled (AN / AF)",
+      "Efficiency: Higher efficiency and reduced core losses",
+      "Tap Changer: Off-load / On-load (OLTC) options",
+      "Insulation Class: A / B / F / H",
+      "Design Standards: IS 2026 / IEC 60076",
+      "Mounting: Skid or wheel-mounted, as per site requirement",
+      "Protection: PRD, oil temp indicators, Buchholz relay (for oil type)"
+    ],
+    "technical_specifications": {
+      "Rated Capacity": "100 kVA to 100 MVA",
+      "Voltage Class": "Up to 220 kV",
+      "Frequency": "50 Hz / 60 Hz",
+      "Winding Type": "Single winding (Auto Transformer)",
+      "Cooling Method": "ONAN / ONAF / AN / AF",
+      "Tap Changer": "Off-load / On-load (OLTC)",
+      "Insulation Level": "Class A / B / F / H",
+      "Temperature Rise": "50°C / 55°C / 65°C",
+      "Standards": "IS 2026, IEC 60076"
+    },
+    "advantages": [
+      "Compact & Cost-Effective: Requires less copper, core, and space",
+      "High Efficiency: Reduced losses and improved voltage control",
+      "Custom Options: Available in both air and oil-cooled types",
+      "Easy Installation: Lightweight and easy to maintain",
+      "Versatile: Suitable for wide voltage ranges and configurations"
+    ],
+    "technical_use_cases": [
+      "Step-up and step-down voltage adjustment in power networks",
+      "Power supply systems for motors, drives, and industrial machines",
+      "Interconnection of systems with different voltage levels",
+      "Load balancing and voltage regulation in substations"
+    ],
+    "applications": [
+      "Industrial facilities and processing plants",
+      "Power generation and transmission stations",
+      "Renewable energy systems",
+      "Railways and metros",
+      "Testing labs and control panels"
+    ]
+  },
+  {
+    "image": "/lovable-uploads/product/product.img",
+    "product_name": "Isolation Transformers",
+    "description": "Jayco Electricals manufactures Isolation Transformers designed to provide complete electrical isolation between input and output circuits. These transformers enhance operational safety by preventing direct current flow, minimizing electrical noise, and protecting sensitive equipment from surges, spikes, and ground loop issues.\n\nWidely used in medical equipment, CNC machines, data centers, and telecom setups, our isolation transformers are built with high-grade core materials and advanced shielding techniques. They are available in both single-phase and three-phase configurations, with air or oil-cooled designs, tailored for precision and safety.",
+    "key_features": [
+      "Voltage Rating: Up to 33 kV",
+      "Capacity Range: 1 kVA to 1000 kVA",
+      "Construction: Double-wound with electrostatic shielding",
+      "Cooling Types: Air-cooled (AN/AF) or Oil-cooled (ONAN)",
+      "Noise Reduction: Filters electrical noise and harmonics",
+      "Safety: Electrical separation from power supply source",
+      "Design Standards: IS 2026 / IEC 61558 / IEEE",
+      "Mounting: Floor or skid-mounted options",
+      "Enclosure: IP20/IP23/IP44 options for indoor/outdoor use"
+    ],
+    "technical_specifications": {
+      "Rated Capacity": "1 kVA to 1000 kVA",
+      "Voltage Class": "Up to 33 kV",
+      "Frequency": "50 Hz / 60 Hz",
+      "Phase": "Single-phase / Three-phase",
+      "Cooling Method": "AN / AF / ONAN",
+      "Insulation Class": "Class B / F / H",
+      "Electrostatic Shield": "Provided for noise suppression",
+      "Standards": "IS 2026, IEC 61558, IEEE"
+    },
+    "advantages": [
+      "Complete Isolation: Eliminates electrical noise and leakage",
+      "Safe & Secure: Protects equipment and personnel",
+      "EMI/RFI Suppression: Reduces signal interference",
+      "Compact & Efficient: Low losses, reliable performance",
+      "Versatile: Works with sensitive loads and control systems"
+    ],
+    "technical_use_cases": [
+      "Isolation in medical and laboratory equipment",
+      "Electrical separation in industrial automation systems",
+      "Noise filtering in data centers and telecom systems",
+      "Safe power supply for sensitive devices"
+    ],
+    "applications": [
+      "Hospitals, diagnostic labs, and operation theaters",
+      "CNC machines and PLC-controlled systems",
+      "IT parks, telecom stations, and server rooms",
+      "Audio-visual setups and broadcast systems",
+      "Control panels in industrial facilities"
+    ]
+  },
+  {
+    "image": "/lovable-uploads/product/product.img",
+    "product_name": "Servo Voltage Stabilizers",
+    "description": "Jayco Electricals manufactures high-performance Servo Voltage Stabilizers that deliver consistent, regulated voltage to protect appliances and industrial equipment from fluctuations. Using a servo-motor-based system, these stabilizers continuously monitor and adjust voltage output with high precision, ensuring optimal performance and extended equipment life.\n\nAvailable in both air-cooled and oil-cooled variants, our stabilizers are suitable for single-phase and three-phase applications across residential, commercial, and industrial sectors. Built in compliance with IS 9815 standards, these units are robust, efficient, and reliable under varying load and supply conditions.",
+    "key_features": [
+      "Voltage Range: Input 170V–270V / 300V–470V",
+      "Output Voltage: 230V ±1% (1-Phase) / 400V ±1% (3-Phase)",
+      "Capacity Range: 3 kVA to 500 kVA",
+      "Cooling Type: Air-cooled / Oil-cooled",
+      "Correction Speed: Up to 35V/sec",
+      "Technology: Servo motor-based voltage control",
+      "Efficiency: More than 95%",
+      "Mounting: Wall (≤15 kVA) or floor-mounted (≥20 kVA)",
+      "Display: Digital / Analog voltage and current meters",
+      "Standards: IS 9815 compliant"
+    ],
+    "technical_specifications": {
+      "Rated Capacity": "3 kVA to 500 kVA",
+      "Input Voltage": "170–270V / 300–470V (customizable)",
+      "Output Voltage": "230V ±1% / 400V ±1%",
+      "Phase": "Single-phase / Three-phase",
+      "Cooling Type": "Air-cooled / Oil-cooled",
+      "Correction Speed": "Up to 35 V/sec",
+      "Efficiency": ">95%",
+      "Insulation Class": "Class B / F",
+      "Design Standards": "IS 9815"
+    },
+    "advantages": [
+      "Precise Voltage Regulation: Prevents damage from fluctuations",
+      "Quick Response Time: Ensures uninterrupted performance",
+      "Energy Saving: High operational efficiency",
+      "Equipment Safety: Ideal for sensitive electronics",
+      "Low Maintenance: Durable, long-lasting components",
+      "Custom Built: Available in tailored configurations"
+    ],
+    "technical_use_cases": [
+      "Voltage correction for HVAC, CNC, lifts, and medical devices",
+      "Stable voltage supply for labs, IT infrastructure, and telecom",
+      "Load stabilization for production lines and industrial equipment",
+      "Electrical safety for residential and commercial loads"
+    ],
+    "applications": [
+      "Homes, apartments, and office buildings",
+      "Hospitals, clinics, and testing labs",
+      "Educational institutions and data centers",
+      "Shopping malls, showrooms, and hotels",
+      "Industrial units, plants, and printing presses"
+    ]
+  }
+]
