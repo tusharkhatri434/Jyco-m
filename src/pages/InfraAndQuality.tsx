@@ -7,57 +7,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 import { Shield, Award, Users, Factory, CheckCircle, Star } from "lucide-react";
+import { useScreen } from "@/hooks/ScreenContext";
 
 const InfraAndQuality = () => {
-  const statsData = [
-    {
-      icon: <Factory className="w-8 h-8 text-blue-600" />,
-      number: "2",
-      label: "Manufacturing Units",
-      description: "State-of-the-art facilities",
-    },
-    {
-      icon: <Award className="w-8 h-8 text-green-600" />,
-      number: "25+",
-      label: "Years Experience",
-      description: "Industry expertise",
-    },
-    {
-      icon: <Shield className="w-8 h-8 text-purple-600" />,
-      number: "100%",
-      label: "Quality Assurance",
-      description: "Rigorous testing protocols",
-    },
-    {
-      icon: <Users className="w-8 h-8 text-orange-600" />,
-      number: "500+",
-      label: "Expert Team",
-      description: "Skilled professionals",
-    },
-  ];
 
-  const certificationData = [
-    {
-      title: "ISO 9001:2015",
-      description: "Quality Management System",
-      icon: <CheckCircle className="w-6 h-6 text-green-500" />,
-    },
-    {
-      title: "ISO 14001:2015",
-      description: "Environmental Management",
-      icon: <Shield className="w-6 h-6 text-blue-500" />,
-    },
-    {
-      title: "OHSAS 18001",
-      description: "Occupational Health & Safety",
-      icon: <Award className="w-6 h-6 text-purple-500" />,
-    },
-    {
-      title: "BIS Certification",
-      description: "Bureau of Indian Standards",
-      icon: <Star className="w-6 h-6 text-yellow-500" />,
-    },
-  ];
+  const {isMobile} = useScreen();
 
   const aboutData = {
     title:
@@ -164,6 +118,7 @@ const InfraAndQuality = () => {
     },
   ];
 
+
   return (
     <div className="min-h-screen luxury-bg">
       <Header />
@@ -174,7 +129,7 @@ const InfraAndQuality = () => {
           subtitle="Delivering Trust Through Global Standards"
           description="Where advanced engineering meets precision craftsmanship to create transformers that deliver unmatched performance, durability and reliability"
           showCTA={false}
-          backgroundImage="/lovable-uploads/infra/ManufacturingProcesses.png"
+          backgroundImage={ isMobile ? "/lovable-uploads/infra/ManufacturingProcessesM.png" : "/lovable-uploads/infra/ManufacturingProcesses.png" }
         />
 
         {/* Content Section */}

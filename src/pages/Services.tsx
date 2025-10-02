@@ -9,16 +9,18 @@ import { scrollToTopImmediate } from '@/utils/scrollToTop';
 import { useEffect } from 'react';
 import { initializeScrollAnimations, ensureContentVisibility } from '@/utils/scrollAnimations';
 import { useNavigate } from 'react-router-dom';
+import { useScreen } from '@/hooks/ScreenContext';
 const Services = () => {
 
   const navigate = useNavigate();
-
+  const {isMobile} = useScreen();
   useEffect(() => {
     scrollToTopImmediate();
     // Immediate initialization without delay
     ensureContentVisibility();
     initializeScrollAnimations();
   }, []);
+   
   const services = [{
     id: "design",
     title: "Custom Design & Engineering",
@@ -95,11 +97,11 @@ const Services = () => {
           subtitle="End-to-end transformer solutions from design and manufacturing to installation, maintenance, and 24/7 support"
           description="Complete lifecycle management for all your transformer needs with expert consultation and round-the-clock support."
           showCTA={true}
-          backgroundImage="/lovable-uploads/product/OurServices.png"
+          backgroundImage={ isMobile ? "/lovable-uploads/product/OurServicesM.png" : "/lovable-uploads/product/OurServices.png" }
         />
 
         {/* Service Portfolio Continuous Layout */}
-        <section className="py-10 bg-background">
+        <section className="py-0 sm:py-10 bg-background">
           <div className="container mx-auto px-4">
             {/* <div className="text-center mb-16 scroll-animate-fade">
               <h2 className="text-4xl font-bold mb-6 md:text-5xl text-red-600 scroll-animate-left">

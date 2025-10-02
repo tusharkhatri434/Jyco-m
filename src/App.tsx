@@ -19,6 +19,7 @@ import { scrollToTopImmediate } from "./utils/scrollToTop";
 import { initializeScrollAnimations, ensureContentVisibility, optimizeScrollPerformance } from "./utils/scrollAnimations";
 import ScrollToTopOnNavigate from "./components/ScrollToTopOnNavigate";
 import InfraAndQuality from "./pages/InfraAndQuality";
+import { ScreenProvider } from "./hooks/ScreenContext";
 
 const queryClient = new QueryClient();
 
@@ -49,6 +50,7 @@ const App = () => {
   }, []);
 
   return (
+    <ScreenProvider>
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
@@ -71,6 +73,7 @@ const App = () => {
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
+    </ScreenProvider>
   );
 };
 

@@ -217,7 +217,7 @@ const AboutSection = () => {
             <div className="relative mx-auto">
               <img
                 alt="Jayco Electricals Manufacturing Facility"
-                className="rounded-2xl h-[600px] w-full object-cover"
+                className="rounded-2xl h-[600px] w-full object-contain"
                 src="/lovable-uploads/product/power_tt.webp"
               />
             </div>
@@ -231,7 +231,7 @@ const AboutSection = () => {
             <div className="relative mx-auto">
               <img
                 alt="Jayco Electricals Manufacturing Facility"
-                className="rounded-xl h-96"
+                className="rounded-xl h-96 object-cover"
                 src="/lovable-uploads/about/insfra.png"
               />
             </div>

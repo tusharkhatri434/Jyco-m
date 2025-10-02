@@ -8,7 +8,11 @@ import { Card, CardContent } from '@/components/ui/card';
 import { scrollToTopImmediate } from '@/utils/scrollToTop';
 import { useEffect } from 'react';
 import { initializeScrollAnimations, ensureContentVisibility } from '@/utils/scrollAnimations';
+import { useScreen } from '@/hooks/ScreenContext';
 const Products = () => {
+
+  const {isMobile} = useScreen();
+
   useEffect(() => {
     scrollToTopImmediate();
     // Immediate initialization without delay
@@ -26,7 +30,7 @@ const Products = () => {
           subtitle="Comprehensive Transformer Solutions"
           description="From power transformers to voltage stabilizers, discover our complete range of electrical solutions designed for every industry need."
           showCTA={false}
-          backgroundImage="/lovable-uploads/product/Productrange.png"
+          backgroundImage={isMobile ? "/lovable-uploads/product/ProductRangeM.png" : "/lovable-uploads/product/Productrange.png"}
         />
 
         {/* Manufacturing Excellence Section */}

@@ -100,7 +100,7 @@ const ProductsCatalog = () => {
               )}
           </div>
           <div className="text-md sm:text-lg lg:text-lg text-gray-600 leading-relaxed sm:mb-6">
-            <div className="flex flex-col gap-3 text-sm">
+            <div className="flex flex-col gap-3 text-sm text-justify">
               {formatDescription(product.description, product.product_name).map(
                 (paragraph, idx) => (
                   <p key={idx} className="mb-2">

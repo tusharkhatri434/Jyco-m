@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { ArrowRight, ChevronDown } from 'lucide-react';
+import { useScreen } from '@/hooks/ScreenContext';
 interface HeroSectionProps {
   title: string;
   subtitle?: string;
@@ -22,6 +23,9 @@ const HeroSection = ({
   backgroundImage,
   showScrollIndicator = true
 }: HeroSectionProps) => {
+ 
+      const { isMobile } = useScreen();
+
   const navigate = useNavigate();
   const handleCTAClick = () => {
     if (ctaAction) {
@@ -30,6 +34,8 @@ const HeroSection = ({
       navigate('/contact');
     }
   };
+
+
   const scrollToNextSection = () => {
     const headerHeight = 80;
     const windowHeight = window.innerHeight;
@@ -40,8 +46,8 @@ const HeroSection = ({
     });
   };
   return <section className="relative min-w-[90vw] h-[60vh] md:h-[50vh] mt-20 lg:mt-28 overflow-hidden flex items-center justify-center" style={{
-    backgroundImage: backgroundImage ? `linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15)), url(${backgroundImage})` : 'none',
-    backgroundSize: 'cover',
+    backgroundImage: backgroundImage ? `url(${backgroundImage})` : 'none',
+    backgroundSize: `${isMobile ? 'contain' : 'cover'}`,
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat'
   }}>

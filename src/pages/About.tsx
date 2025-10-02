@@ -8,10 +8,12 @@ import { scrollToTopImmediate } from '@/utils/scrollToTop';
 import { useEffect } from 'react';
 import { initializeScrollAnimations, ensureContentVisibility } from '@/utils/scrollAnimations';
 import { useLocation } from 'react-router-dom';
+import { useScreen } from '@/hooks/ScreenContext';
 
 const About = () => {
 
   const location = useLocation();
+    const { isMobile } = useScreen();
 
   useEffect(() => {
     scrollToTopImmediate();
@@ -44,7 +46,7 @@ const About = () => {
           subtitle=""
           description="Where cutting-edge technology meets traditional craftsmanship to deliver unparalleled quality in transformer solutions."
           showCTA={false}
-          backgroundImage="/lovable-uploads/about/About_Us.png"
+          backgroundImage={isMobile ? "/lovable-uploads/about/AboutUsM.png" : "/lovable-uploads/about/About_Us.png" }
         />
         <div className="section-light scroll-animate-fade">
           <AboutSection />

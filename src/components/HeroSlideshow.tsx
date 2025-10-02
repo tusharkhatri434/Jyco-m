@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -19,7 +19,6 @@ const slides: Slide[] = [
     heading: "Manufacturer & Supplier of",
     subtext1: "Solar Inverter Duty Transformers",
     subtext2: "& Wind Power Transformers",
-    // transformerImage: "/lovable-uploads/home/p3.png",
   },
   {
     id: 2,
@@ -27,7 +26,6 @@ const slides: Slide[] = [
     heading: "Manufacturer & Supplier of",
     subtext1: "Power and",
     subtext2: "Distribution Transformers",
-    // transformerImage: "/lovable-uploads/home/p2.png"
   },
   {
     id: 3,
@@ -35,28 +33,27 @@ const slides: Slide[] = [
     heading: "Manufacturer & Supplier of",
     subtext1: "Servo Voltage Stabilizers,",
     subtext2: " Furnace Transformers & more",
-    // transformerImage: "/lovable-uploads/home/p1.png",
   },
 ];
 
 const mobileSlides: Slide[] = [
   {
     id: 1,
-    bgImage: "/MobileViewBanner/sq 01.png",
+    bgImage: "/lovable-uploads/home/sq01.png",
     heading: "Manufacturer & Supplier of",
     subtext1: "Solar Inverter Duty Transformers",
     subtext2: "& Wind Power Transformers",
   },
   {
     id: 2,
-    bgImage: "/MobileViewBanner/sq02.png",
+    bgImage: "/lovable-uploads/home/sq02.png",
     heading: "Manufacturer & Supplier of",
     subtext1: "Power and",
     subtext2: "Distribution Transformers",
   },
   {
     id: 3,
-    bgImage: "/MobileViewBanner/sq03.png",
+    bgImage: "/lovable-uploads/home/sq03.png",
     heading: "Manufacturer & Supplier of",
     subtext1: "Servo Voltage Stabilizers,",
     subtext2: " Furnace Transformers & more",
@@ -66,49 +63,41 @@ const mobileSlides: Slide[] = [
 const HeroSlideshow = () => {
   const navigate = useNavigate();
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 500);
 
-  // Check if screen is mobile size
+  // Detect screen resize
   useEffect(() => {
-    const checkScreenSize = () => {
-      const wasMobile = isMobile;
-      const nowMobile = window.innerWidth < 768;
-      setIsMobile(nowMobile);
-
-      // Reset slide position when switching between mobile/desktop
-      if (wasMobile !== nowMobile) {
-        setCurrentSlide(0);
-      }
+    const handleResize = () => {
+      const nowMobile = window.innerWidth < 500;
+      setIsMobile((prev) => {
+        if (prev !== nowMobile) {
+          setCurrentSlide(0); // reset slide on switch
+        }
+        return nowMobile;
+      });
     };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-    checkScreenSize();
-    window.addEventListener("resize", checkScreenSize);
-    return () => window.removeEventListener("resize", checkScreenSize);
-  }, [isMobile]);
+  // Decide which slides to use
+  const currentSlides = useMemo(() => (isMobile ? mobileSlides : slides), [isMobile]);
 
   // Auto-play
   useEffect(() => {
-    const currentSlides = isMobile ? mobileSlides : slides;
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % currentSlides.length);
     }, 6000);
     return () => clearInterval(interval);
-  }, [isMobile]);
+  }, [currentSlides.length]);
 
   const goToPrevious = () => {
-    const currentSlides = isMobile ? mobileSlides : slides;
-    setCurrentSlide(
-      (prev) => (prev - 1 + currentSlides.length) % currentSlides.length
-    );
+    setCurrentSlide((prev) => (prev - 1 + currentSlides.length) % currentSlides.length);
   };
 
   const goToNext = () => {
-    const currentSlides = isMobile ? mobileSlides : slides;
     setCurrentSlide((prev) => (prev + 1) % currentSlides.length);
   };
-
-  // Get current slides based on screen size
-  const currentSlides = isMobile ? mobileSlides : slides;
 
   return (
     <section className="relative h-[70vh] md:h-[65vh] w-full overflow-hidden mt-20 md:mt-28">
