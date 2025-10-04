@@ -30,7 +30,7 @@ const Contact = () => {
           subtitle="Ready to Power Your Project?"
           description="Connect with our expert team for custom transformer solutions. We provide comprehensive support from design to installation."
           showCTA={false}
-          backgroundImage={isMobile ? "/lovable-uploads/contact_us/ContactUsM.png" : "/lovable-uploads/contact_us/banner_img_3.jpeg" }
+          backgroundImage={isMobile ? "/lovable-uploads/contact_us/ContactUsM.png" : "/lovable-uploads/contact_us/ContactUs.png" }
         />
         {/* <GetInTouch /> */}
         <div className="section-light scroll-animate-fade">

@@ -129,7 +129,7 @@ const InfraAndQuality = () => {
           subtitle="Delivering Trust Through Global Standards"
           description="Where advanced engineering meets precision craftsmanship to create transformers that deliver unmatched performance, durability and reliability"
           showCTA={false}
-          backgroundImage={ isMobile ? "/lovable-uploads/infra/ManufacturingProcessesM.png" : "/lovable-uploads/infra/ManufacturingProcesses.png" }
+          backgroundImage={ isMobile ? "/lovable-uploads/infra/ManufacturingProcessesM.png" : "/lovable-uploads/infra/ManufacturingProcesses1.png" }
         />
 
         {/* Content Section */}
@@ -141,10 +141,10 @@ const InfraAndQuality = () => {
                 <h1 className="mb-6 text-md md:text-xl font-bold text-gray-900">
                   Quality | Innovation | Reliability
                 </h1>
-                <p className="text-md md:text-lg text-gray-700 leading-relaxed">
+                <p className="text-md md:text-xl text-gray-700 leading-relaxed">
                   {aboutData.title}
                 </p>
-                <p className="text-lg md:text-xl text-gray-700 mt-6 leading-relaxed">
+                <p className="text-md lg:text-nowrap md:text-lg text-gray-700 mt-6 leading-relaxed">
                   {aboutData.subtitle}
                 </p>
               </div>
@@ -182,7 +182,7 @@ const InfraAndQuality = () => {
                       <img
                         src={`/lovable-uploads/ourService/${item.img}`}
                         alt={item.name}
-                        className="w-full h-48 lg:h-52 object-contain border border-gray-200 rounded-lg p-3 bg-white"
+                        className="w-full h-56 lg:h-[22rem] object-contain md:object-cover border border-gray-200 rounded-xl p-3 bg-white"
                       />
                     </div>
                   </div>

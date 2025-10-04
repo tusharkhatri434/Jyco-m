@@ -29,7 +29,7 @@ const slides: Slide[] = [
   },
   {
     id: 3,
-    bgImage: "/lovable-uploads/home/banner03.png",
+    bgImage: "/lovable-uploads/home/banner031.png",
     heading: "Manufacturer & Supplier of",
     subtext1: "Servo Voltage Stabilizers,",
     subtext2: " Furnace Transformers & more",
@@ -53,7 +53,7 @@ const mobileSlides: Slide[] = [
   },
   {
     id: 3,
-    bgImage: "/lovable-uploads/home/sq03.png",
+    bgImage: "/lovable-uploads/home/sq031.png",
     heading: "Manufacturer & Supplier of",
     subtext1: "Servo Voltage Stabilizers,",
     subtext2: " Furnace Transformers & more",

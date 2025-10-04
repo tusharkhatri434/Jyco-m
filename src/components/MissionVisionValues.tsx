@@ -31,8 +31,8 @@ export default function MissionVisionValues() {
             index + 1
           }`}
         >
-          <CardHeader className="pb-3 bg-gray-200 rounded-xl scroll-animate-fade scroll-stagger-${index + 1}">
-            <div className="flex items-center space-x-2 mb-3 scroll-animate-slide-up scroll-stagger-${index + 2}">
+          <CardHeader className="p-3 bg-gray-200 rounded-xl scroll-animate-fade scroll-stagger-${index + 1}">
+            <div className="flex items-center space-x-2 scroll-animate-slide-up scroll-stagger-${index + 2}">
               <div className="p-2 bg-white shadow-md scroll-animate-bounce scroll-stagger-${index + 3} rounded-xl">
                 <span className="text-lg">{card.icon}</span>
               </div>
