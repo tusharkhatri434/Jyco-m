@@ -23,15 +23,15 @@ export default function MissionVisionValues() {
   ];
 
   return (
-    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
+    <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
       {cards.map((card, index) => (
         <Card
           key={index}
-          className={`w-full max-w-[330px] mx-auto bg-slate-50 shadow-md border rounded-2xl overflow-hidden scroll-animate-zoom scroll-stagger-${
+          className={`w-full max-w-[480px] mx-auto bg-white shadow-md border rounded-2xl overflow-hidden scroll-animate-zoom scroll-stagger-${
             index + 1
           }`}
         >
-          <CardHeader className="p-3 bg-gray-200 rounded-xl scroll-animate-fade scroll-stagger-${index + 1}">
+          <CardHeader className="bg-gray-100 p-4 rounded-xl scroll-animate-fade scroll-stagger-${index + 1}">
             <div className="flex items-center space-x-2 scroll-animate-slide-up scroll-stagger-${index + 2}">
               <div className="p-2 bg-white shadow-md scroll-animate-bounce scroll-stagger-${index + 3} rounded-xl">
                 <span className="text-lg">{card.icon}</span>
@@ -41,8 +41,8 @@ export default function MissionVisionValues() {
               </CardTitle>
             </div>
           </CardHeader>
-          <CardContent className="flex flex-col py-[8px] rounded-md bg-slate-50 scroll-animate-fade scroll-stagger-${index + 4}">
-            <div className="text-gray-700 flex flex-col gap-3 mb-14 leading-relaxed text-sm scroll-animate-slide-up scroll-stagger-${index + 4} whitespace-pre-line">
+          <CardContent className="flex flex-col p-5 rounded-md scroll-animate-fade scroll-stagger-${index + 4}">
+            <div className="text-gray-700 flex flex-col gap-3 leading-relaxed text-sm scroll-animate-slide-up scroll-stagger-${index + 4} whitespace-pre-line">
               <p>{card.text1}</p>
               
               <p>{card.text2}</p>

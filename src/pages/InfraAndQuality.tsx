@@ -141,7 +141,7 @@ const InfraAndQuality = () => {
                 <h1 className="mb-6 text-md md:text-xl font-bold text-gray-900">
                   Quality | Innovation | Reliability
                 </h1>
-                <p className="text-md md:text-xl text-gray-700 leading-relaxed">
+                <p className="text-md md:text-lg text-gray-700 leading-relaxed">
                   {aboutData.title}
                 </p>
                 <p className="text-md lg:text-nowrap md:text-lg text-gray-700 mt-6 leading-relaxed">

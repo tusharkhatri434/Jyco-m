@@ -135,11 +135,11 @@ const HomePageSummaries = () => {
         </div>
 
         {/* Summary Cards Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-16 justify-items-center">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-10 mb-16 justify-items-center">
           {summaryCards.map((card, index) => (
             <Card
               key={index}
-              className={`h-auto w-[330px] max-w-sm bg-white shadow-md border rounded-2xl overflow-hidden scroll-animate-zoom scroll-stagger-${
+              className={`h-auto max-w-[480px] m-2 sm:m-0 bg-white shadow-md border rounded-2xl overflow-hidden scroll-animate-zoom scroll-stagger-${
           index + 1
               }`}
             >
